@@ -19,7 +19,7 @@ const config: Config = {
   url: 'https://blog.anew0m.com',
   // Set the /<baseUrl>/ pathname under which your site is served
   // For GitHub pages deployment, it is often '/<projectName>/'
-  baseUrl: '/it',
+  baseUrl: '/it/',
 
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
