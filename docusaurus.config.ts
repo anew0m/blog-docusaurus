@@ -32,6 +32,28 @@ const config: Config = {
   i18n: {
     defaultLocale: 'ko',
     locales: ['ko', 'en', 'jp'],
+    localeConfigs: {
+      'ko': {
+        label: 'ko-한국어',
+        htmlLang: 'ko',
+      },
+      'en': {
+        label: 'en-English',
+        htmlLang: 'en',
+      },
+      'jp': {
+        label: 'jp-日本語',
+        htmlLang: 'jp',
+      },
+      'fr': {
+        label: 'fr-Français',
+        htmlLang: 'fr',
+      },
+      'es': {
+        label: 'es-Español',
+        htmlLang: 'es',
+      },
+    }
   },
 
   presets: [
@@ -112,6 +134,7 @@ const config: Config = {
         { position: 'left', label: 'Learn', to: '/docs-learn/Intro', activeBaseRegex: `/docs-learn/`,}, // ./docs-api/Intro.md
         { position: 'left', label: 'Blog', to: '/blog', },
         // { position: 'left', label: 'Life', to: '/life', },
+        { position: 'right', type: 'localeDropdown', },
         { position: 'right', label: 'GitHub', href: 'https://github.com/anew0m', },
       ],
     },
