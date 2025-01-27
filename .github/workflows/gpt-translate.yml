@@ -17,6 +17,6 @@ jobs:
           contains(github.event.comment.body, '/gt')
         uses: 3ru/gpt-translate@master
         with:
-          apikey: ${{ secrets.OPENAI_API_KEY }}
+          apikey: ${{ secrets.OPENAI_API_KEY_BLOG }}
           model: gpt-4o
-          prompt: "Please translate the given text into naturalistic {targetLanguage} and output it in {targetFileExt} format. But do not translate the frontmatter section."
+          prompt: "Please translate the given text into naturalistic {targetLanguage} and output it in {targetFileExt} format. But in the frontmatter section, translate only the title and description."
