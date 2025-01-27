@@ -1,3 +1,15 @@
+minho:
+  name: MinHo Jung
+  title: Data Manager
+  url: https://sebastienlorber.com
+  image_url: https://github.com/slorber.png
+  page:
+    # customize the url of the author page at /blog/authors/<permalink>
+    permalink: '/all-minho-articles'
+  socials:
+    linkedin: anew0m
+    github: anew0m
+
 yangshun:
   name: Yangshun Tay
   title: Front End Engineer @ Facebook
