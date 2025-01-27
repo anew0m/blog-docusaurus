@@ -5,7 +5,7 @@
   "scripts": {
     "docusaurus": "docusaurus",
     "start": "docusaurus start",
-    "build": "docusaurus build && mkdir -p build/it && mv build/* build/it/",
+    "build": "docusaurus build && mkdir -p it && mv build/* it/ && mv it/ build/",
     "swizzle": "docusaurus swizzle",
     "deploy": "docusaurus deploy",
     "clear": "docusaurus clear",
