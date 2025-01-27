@@ -11,7 +11,6 @@ jobs:
 
     steps:
       - uses: actions/checkout@v4
-
       - name: Run GPT Translate
         if: |
           contains(github.event.comment.body, '/gpt-translate') || 
@@ -19,3 +18,5 @@ jobs:
         uses: 3ru/gpt-translate@master
         with:
           apikey: ${{ secrets.OPENAI_API_KEY }}
+          model: gpt-4o
+          prompt: "Please translate the given text into naturalistic {targetLanguage} and output it in {targetFileExt} format. But do not translate the frontmatter section."
