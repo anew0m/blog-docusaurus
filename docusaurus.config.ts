@@ -131,7 +131,7 @@ const config: Config = {
       },
       items: [
         { position: 'left', label: 'Tutorial', type: 'docSidebar', sidebarId: 'tutorialSidebar', },
-        { position: 'left', label: 'Learn', to: '/docs-learn/Intro', activeBaseRegex: `/docs-learn/`,}, // ./docs-api/Intro.md
+        { position: 'left', label: 'Learn', to: '/docs-learn/intro', activeBaseRegex: `/docs-learn/`,}, // ./docs-api/Intro.md
         { position: 'left', label: 'Blog', to: '/blog', },
         // { position: 'left', label: 'Life', to: '/life', },
         { position: 'right', type: 'localeDropdown', },
