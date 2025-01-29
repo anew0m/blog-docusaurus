@@ -1,7 +1,7 @@
 ---
 title: 내집마련 해커톤 참여 후기
 description: 내집마련 해커톤'을 통한 개인 블로그 제작 과정 소개
-date: 2019-09-21T00:00:00+09:00
+date: 2019-09-23T00:00:00+09:00
 lastmod: 2019-09-21T00:00:00+09:00
 slug: hackerton_myhome
 authors: [minho]
