@@ -1,13 +1,6 @@
 ---
 title: 내집마련 해커톤 참여 후기
 description: 내집마련 해커톤'을 통한 개인 블로그 제작 과정 소개
-date: 2019-09-23T00:00:00+09:00
-lastmod: 2019-09-21T00:00:00+09:00
-slug: hackerton_myhome
-authors: [minho]
-tags: [hackerton]
-image: https://i.imgur.com/mErPwqL.png
-hide_table_of_contents: false
 ---
 
 # 내집마련 해커톤 참여 후기
@@ -75,7 +68,7 @@ AsciiDoc 관련 링크 ::
 
 ## **내 집 마련 과정**
 
-본 블로그는 [개발 수양록 블로그의 정상혁님이 작성하신 글](https://blog.benelog.net/migration-to-static-site.html)을 그대로 따라서 진행하였다。
+본 블로그는 [개발 수양록 블로그의 정상혁님이 작성하신 글](https://blog.benelog.net/migration-to-static-site.html)을 그대로 따라서 진행하였다.
 
 ### 서비스 환경
 - 정적 사이트 생성 플랫폼 : [JBake](https://jbake.org/)
@@ -92,12 +85,12 @@ AsciiDoc 관련 링크 ::
 
 
 ### 구축간 특이사항
-초기에 travis 나 netlify 에서 빌드 할 때 에러가 발생하여, ubuntu 버전을 16.04 -> 14.04로 내려서 빌드를 하였다。
-travis는 *.travis.yml* 파일에 'dist: trusty' 코드를 추가하였고, netlify 에서는 *Setting - Build & deploy* 메뉴에서 'Build image selection' 에서 수정하였다。_(netlify는 16.04 버전에서 정상동작하여 기존 14.04 -> 16.04 로 다시 변경하였다。)_
+초기에 travis 나 netlify 에서 빌드 할 때 에러가 발생하여, ubuntu 버전을 16.04 -> 14.04로 내려서 빌드를 하였다.
+travis는 *.travis.yml* 파일에 'dist: trusty' 코드를 추가하였고, netlify 에서는 *Setting - Build & deploy* 메뉴에서 'Build image selection' 에서 수정하였다. _(netlify는 16.04 버전에서 정상동작하여 기존 14.04 -> 16.04 로 다시 변경하였다.)_
 
-빌드 및 배포를 Netlify와 Travis CI 두군데에서 하고 있기 때문에 본 블로그는 아래 두개의 주소로 접근 할 수 있다。
+빌드 및 배포를 Netlify와 Travis CI 두군데에서 하고 있기 때문에 본 블로그는 아래 두개의 주소로 접근 할 수 있다.
 
 * https://anew0m.netlify.com - Netlify
 * https://anew0m.github.io/blog/ - Travis CI
 
-끝。
+끝.
